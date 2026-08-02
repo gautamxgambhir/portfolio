@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next,
+main {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0B0B0D;
+  color: #F2EEE9;
+  font-family: "Syne", sans-serif;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after, a, button, input, textarea, select {
+  cursor: none !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0B0B0D; }
+::-webkit-scrollbar-thumb { background: #1B1C20; border-radius: 3px; }
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  inset: 0;
+  background: #0B0B0D;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Typewriter Cursor */
+@keyframes typewriterBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 0.12em;
+  height: 0.85em;
+  background-color: #F2EEE9;
+  margin-left: 0.08em;
+  vertical-align: baseline;
+  animation: typewriterBlink 0.75s step-end infinite;
+  box-shadow: 0 0 8px rgba(242, 238, 233, 0.4);
+}
+
+/* Vertical writing mode for accordion cards */
+.writing-mode-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Custom cursor */
+.cursor-dot {
+  position: fixed;
+  top: 0; left: 0;
+  width: 12px; height: 12px;
+  background: #e4ded7;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+.marquee-track:hover { animation-play-state: paused; }
+
+/* Animated border orbit */
+@keyframes orbit {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}
+.orbit-dot {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(from 0deg, transparent 70%, #ffaa40 85%, #9c40ff 100%);
+  border-radius: 50%;
+  animation: orbit 3s linear infinite;
+  pointer-events: none;
+}
