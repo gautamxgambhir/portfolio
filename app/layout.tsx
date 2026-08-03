@@ -12,7 +12,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Gautam Gambhir",
   description:
-    "Full-Stack Developer based in Delhi, India. Building products, AI systems, and experiences that matter.",
+    "Full-Stack Developer, Designer based in New Delhi, India. Building products, AI systems, and experiences that matter.",
   keywords: [
     "Full-Stack Developer",
     "React",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gautam Gambhir",
     description:
-      "Full-Stack Developer based in Delhi, India. Building products, AI systems, and experiences that matter.",
+      "Full-Stack Developer, Designer based in New Delhi, India. Building products, AI systems, and experiences that matter.",
     type: "website",
     images: ["/avatar2.png"],
   },

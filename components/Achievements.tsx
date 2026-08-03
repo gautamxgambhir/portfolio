@@ -36,10 +36,10 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const STATS = [
-  { value: 5, suffix: "+", label: "Years Building", desc: "Started programming at 12, shipped first real product at 13." },
+  { value: 6, suffix: "+", label: "Years Building", desc: "Started programming at 12, shipped first real product at 13." },
   { value: 10000, suffix: "+", label: "Users Served", desc: "Platforms built at Maximally served India's largest youth hackathon ecosystem." },
   { value: 6, suffix: "", label: "Roles Held", desc: "Across startups, open source, and the hackathon ecosystem." },
-  { value: 4, suffix: "", label: "Projects Live", desc: "Production applications running and actively used by real people." },
+  { value: 4, suffix: "", label: "Featured Projects", desc: "Production applications running and actively used by real people." },
 ];
 
 const ACHIEVEMENTS = [
@@ -81,9 +81,16 @@ const ACHIEVEMENTS = [
   {
     label: "10+",
     title: "Hackathon Mentor",
-    desc: "Mentored dozens of student teams across multiple national hackathons, helping them solve engineering challenges under pressure.",
+    desc: "Mentored student teams across multiple hackathons, helping them navigate engineering challenges, debug production-level issues, and ship within tight deadlines.",
     accent: "#4ade80",
     tag: "Community",
+  },
+  {
+    label: "7+",
+    title: "7+ Open Source Projects",
+    desc: "Built and shipped more than seven public open-source projects spanning AI systems, developer tools, automation, browser extensions, bots, and full-stack web applications.",
+    accent: "#38bdf8",
+    tag: "Open Source",
   },
 ];
 

@@ -176,14 +176,14 @@ export default function Hero({ animate = false }: HeroProps) {
       }}>
         <div ref={sub1Ref} style={{ maxWidth:420, minWidth:0, flex:"1 1 200px" }}>
           <p style={{ fontSize:"clamp(12px,1.3vw,15px)", fontWeight:500, color:"rgba(242,238,233,0.72)", lineHeight:1.55, margin:0 }}>
-            Full-Stack Developer · AI Builder · Automation Engineer.<br />
+            Full-Stack Developer, Designer · AI Builder · Automation Engineer.<br />
             Open to internships, freelance work, and startup opportunities.
           </p>
         </div>
         <div ref={sub2Ref} style={{ maxWidth:380, minWidth:0, flex:"1 1 180px", textAlign:"right" }}>
           <p style={{ fontSize:"clamp(12px,1.3vw,15px)", fontWeight:600, color:"rgba(242,238,233,0.72)", lineHeight:1.55, margin:0 }}>
             Turning ideas into reality —<br />
-            building from Delhi, India.
+            building from New Delhi, India.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ const fadeUp = {
 };
 
 const BIO_PARAGRAPHS = [
-  "I'm a 17-year-old full-stack developer passionate about building products from idea to deployment. Over five years I've worked across AI, automation, full-stack development, UI/UX, and hackathon infrastructure.",
+  "I'm a 17-year-old full-stack developer passionate about building products from idea to deployment. Over six years I've worked across AI, automation, full-stack development, UI/UX, and hackathon infrastructure.",
   "At 16, I served as Technical Head at Maximally — India's largest youth AI hackathon ecosystem — leading engineering, managing interns, and building platforms that served 10,000+ participants. As Founding Engineer, I built the entire tech stack from zero.",
   "I've won 1st place at CodeDay IIT Delhi and 3rd at Counterspell Delhi, mentored dozens of student teams across national hackathons, and shipped independent open-source AI tools including an in-game Minecraft AI assistant.",
   "I enjoy solving difficult engineering problems, rapidly shipping products, and designing interfaces that balance functionality with exceptional user experience. Rather than isolated demos, I build systems that are actually used by people.",
@@ -120,6 +120,10 @@ export default function About() {
               {
                 title: "Frontend & UI",
                 list: "React, Next.js, TypeScript, Tailwind CSS, Framer Motion, GSAP, Three.js, HTML5, CSS3.",
+              },
+              {
+                title: "Design",
+                list: "Figma, Framer, Photoshop, Premiere Pro, After Effects, Audition.",
               },
               {
                 title: "Backend & Databases",
