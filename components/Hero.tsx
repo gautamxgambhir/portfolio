@@ -92,7 +92,7 @@ export default function Hero({ animate = false }: HeroProps) {
             style={{ fontSize:"clamp(13px,1.8vw,16px)", fontWeight:600, color:"#F2EEE9", textDecoration:"none", whiteSpace:"nowrap" }}>
             GitHub
           </a>
-          <a href="https://linkedin.com/in/gautamgambhir" target="_blank" rel="noopener noreferrer"
+          <a href="https://linkedin.com/in/gautamxgambhir" target="_blank" rel="noopener noreferrer"
             className="cursor-target cursor-magnetic" data-cursor-label="Let's connect on LinkedIn"
             style={{ fontSize:"clamp(13px,1.8vw,16px)", fontWeight:600, color:"#F2EEE9", textDecoration:"none", whiteSpace:"nowrap" }}>
             LinkedIn
