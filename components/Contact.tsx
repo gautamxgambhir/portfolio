@@ -119,7 +119,7 @@ export default function Contact() {
               },
               {
                 label: "LinkedIn",
-                href: "https://linkedin.com/in/gautamgambhir",
+                href: "https://linkedin.com/in/gautamxgambhir",
                 tip: "Connect on LinkedIn",
               },
               {
